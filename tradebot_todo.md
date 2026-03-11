@@ -7,21 +7,22 @@
 - [ ] Install Python dependencies (moomoo-api, pandas, etc.)
 
 ## Configuration
-- [ ] Create `config.json` with account credentials
+- [ ] Create `config.json` or `.env` with account credentials (use .env.example)
 - [ ] Set up Telegram bot for notifications (in utils/)
 - [ ] Verify connection to Paper Trading environment
 
 ## Development
-- [ ] Design and implement base trading strategy interface
-- [ ] Implement first simple strategy (e.g., SMA crossover)
-- [ ] Write unit tests for strategy logic
-- [ ] Implement end-to-end test with Paper Trading
+- [x] Design and implement base trading strategy interface
+- [x] Implement first simple strategy (e.g., SMA crossover)
+- [x] Write unit tests for strategy logic
+- [x] Implement end-to-end test/backtest runner (main.py)
+- [ ] Connect to real moomoo API and place orders
 - [ ] Achieve 100 successful simulated trades
 
 ## Safety & Ops
 - [ ] Implement circuit breaker / stop-loss logic
-- [ ] Add comprehensive logging (utils/)
-- [ ] Set up monitoring and alerts (Telegram)
+- [x] Add comprehensive logging (utils/)
+- [x] Set up monitoring and alerts (Telegram)
 - [ ] Document deployment on Raspberry Pi 4 / GCP VM
 - [ ] Create backup and recovery procedures
 
